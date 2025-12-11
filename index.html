@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/default.js" defer></script>
+    <title>Gerar senha</title>
+</head>
+
+<body>
+    <div>
+        <input id="tamanho" type="number" min="4" max="15" placeholder="Tamanho da senha" />
+        <button onclick="generatePassword()">Gerar Senha</button>
+        <p id="resultado"></p>
+        <button onclick="copiarSenha()">Copiar Senha</button>
+        <label><input type="checkbox" id="maiuscula" /> Maiúsculas</label>
+        <label><input type="checkbox" id="minuscula" /> Minúsculas</label>
+        <label><input type="checkbox" id="numeros" /> Números</label>
+        <label><input type="checkbox" id="simbolos" /> Símbolos</label>
+    </div>
+
+</body>
+
+</html>
